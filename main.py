@@ -60,7 +60,7 @@ def robo_cobranca():
                 print(f"Erro ao ler linhas: {e}")
         
         # Espera 1 hora (3600 segundos) para verificar de novo
-        time.sleep(3600)
+        time.sleep(30)
 
 # --- EXECUÇÃO PRINCIPAL ---
 if __name__ == "__main__":
